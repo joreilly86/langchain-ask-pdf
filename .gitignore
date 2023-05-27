@@ -1,1 +1,28 @@
+# Ignore Python virtual environments
+venv/
+env/
+*.venv/
+.venv/
+
+# Ignore Streamlit cache and logs
+.streamlit/
+*.pyc
+
+# Ignore local development server files
+__pycache__/
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Ignore environment-specific files
 .env
+*.env
+
+# Ignore package and dependency files
+*.egg-info/
+dist/
+build/
+*.egg

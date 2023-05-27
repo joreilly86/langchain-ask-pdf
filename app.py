@@ -11,9 +11,26 @@ from langchain.callbacks import get_openai_callback
 
 def main():
     load_dotenv()
-    st.set_page_config(page_title="Ask your PDF")
-    st.header("Ask your PDF 💬")
+    st.set_page_config(page_title="Python for Engineers - AI PDF Companion", page_icon="🐍", layout="wide")
+    st.header("Python for Engineers - AI PDF Companion 🐍")
     
+    # Add heading 2
+    st.header("Welcome to Python for Engineers! 👋")
+
+    # Add text
+    st.title("Contextualizing Design Guidance Documents")
+
+    st.write("This chatbot serves as a small example of the kinds of projects we will develop throughout our course. It contextualizes design guidance documents and reports, providing critical design information quickly and accurately. Engineers can upload their documents, ask questions, and gain a comprehensive understanding of design principles, improving decision-making and ensuring compliance with industry standards.")
+
+    st.write("Benefits of using our chatbot:")
+    st.markdown("- Quick and accurate access to critical design information")
+    st.markdown("- Improved decision-making process")
+    st.markdown("- Enhanced understanding of design principles")
+    st.markdown("- Streamlined engineering workflow")
+    st.markdown("- Ensured compliance with industry standards")
+
+    st.write("Make informed design choices and propel your engineering projects forward with our powerful chatbot.")
+
     # upload file
     pdf = st.file_uploader("Upload your PDF", type="pdf")
     
@@ -50,6 +67,5 @@ def main():
            
         st.write(response)
     
-
 if __name__ == '__main__':
     main()
