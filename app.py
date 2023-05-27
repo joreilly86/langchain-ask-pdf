@@ -14,6 +14,10 @@ def main():
     st.set_page_config(page_title="Python for Engineers - AI PDF Companion", page_icon="🐍", layout="wide")
     st.header("Python for Engineers - AI PDF Companion 🐍")
     
+    # Add banner image
+    image_url = "https://github.com/joreilly86/langchain-ask-pdf/blob/main/images/Banner.png?raw=true"
+    st.image(image_url, use_column_width=True)
+    
     # Add heading 2
     st.header("Welcome to Python for Engineers! 👋")
 
