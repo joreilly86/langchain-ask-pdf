@@ -2,6 +2,8 @@
 
 This project was forked from an excellent youtube tutorial linked below, created by Alejandro AO - Software & Ai. He creates fantastic tutorials and I highly recommend checking him out. 👍
 
+If you enjoy this app, come and visit us at [Python For Engineers](https://james-site-4eb3.thinkific.com/courses/your-first-course), where we show you the ropes of how you can use Python to accelerate your everyday engineering workflow building on examples like this one and much, much more.
+
 See the info below from Alejandro's project.
 
 ## Langchain Ask PDF (Tutorial)
