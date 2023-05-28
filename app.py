@@ -18,16 +18,23 @@ def main():
     st.image(image_url, use_column_width=True)
     
     #Add heading 1
-    st.title("Python for Engineers - AI PDF Companion 🐍")
+    st.title("Python for Engineers - AI - PDF Companion 🐍")
     
     # Add heading 2
     #st.header("Welcome to Python for Engineers! 👋")
     
-    st.header("Contextualizing Design Guidance Documents")
+    st.header("Contextualizing PDF Documents")
 
     # Add text
-    st.write("This chatbot serves as a small example of the kinds of projects we will develop throughout our course. It contextualizes design guidance documents and reports, providing critical design information quickly and accurately. Engineers can upload their documents, ask questions, and gain a comprehensive understanding of design principles, improving decision-making and ensuring compliance with industry standards.")
+    st.write("This chatbot serves as a small example of the kinds of projects we will develop throughout our course. It contextualizes pdf documents and reports, providing information quickly and accurately. Users can upload their documents, ask questions, and gain a comprehensive understanding of the document content by asking for summaries, bullet points and more.")
 
+    #Link to Python for Engineers
+    text = """
+    If you enjoy this app, come and visit us at [Python For Engineers](https://james-site-4eb3.thinkific.com/courses/your-first-course), where we show you the ropes of how you can use Python to accelerate your everyday engineering workflow with tools like this and much, much more.
+    """
+
+    st.markdown(text)
+    
     # upload file
     pdf = st.file_uploader("Upload your PDF", type="pdf")
     

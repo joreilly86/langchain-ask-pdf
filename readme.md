@@ -1,4 +1,10 @@
-# Langchain Ask PDF (Tutorial)
+# Python for Engineering - Course Example - Ai PDF Companion
+
+This project was forked from an excellent youtube tutorial linked below, created by Alejandro AO - Software & Ai. He creates fantastic tutorials and I highly recommend checking him out. 👍
+
+See the info below from Alejandro's project.
+
+## Langchain Ask PDF (Tutorial)
 
 >You may find the step-by-step video tutorial to build this application [on Youtube](https://youtu.be/wUAUdEw5oxM).
 
@@ -29,9 +35,8 @@ To use the application, run the `main.py` file with the streamlit CLI (after hav
 streamlit run app.py
 ```
 
-
 ## Contributing
 
-This repository is for educational purposes only and is not intended to receive further contributions. It is supposed to be used as support material for the YouTube tutorial that shows how to build the project.
+This repository is for educational purposes only.
 
 
